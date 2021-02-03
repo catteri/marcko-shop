@@ -133,4 +133,13 @@ initializeClock('promo__clock', deadline);
 /*     const deadline = '2021-05-25';
 initializeClock('promo__clock', deadline); */
 
+  let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+
 });
