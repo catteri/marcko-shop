@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marchio</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/index.min.css">
+</head>
+<body>
+    
+{% include ('app/module/header/_header.html') %}
+
+    <main class="main">
+        {% include ('app/module/top-slider/_top-slider.html') %}
+
+        {% include ('app/module/categories/_categories.html') %}
+
+        {% include ('app/module/video__fashion/_video__fashion.html') %}
+
+        {% include ('app/module/product/_product.html') %}
+
+        {% include ('app/module/promo/_promo.html') %}
+
+        {% include ('app/module/partners/_partners.html') %}
+
+        {% include ('app/module/blog__index/_blog_index.html') %}
+  
+    </main>
+
+{% include ('app/module/footer/__footer.html') %}
+   
+ <script src="js/main.min.js"></script>   
+</body>
+</html>
