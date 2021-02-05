@@ -107,6 +107,7 @@
             transition:all .3s;
         &.menu__list--active{
             transform:translateY(0);
+            background-color:#fff;
             }
         }
 
