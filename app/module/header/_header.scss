@@ -81,11 +81,11 @@
         }
     }
 
-    @media (max-width: 1200px){
+@media (max-width: 1200px){
     .header{
-     &__inner{
-     padding-right: 10px;
-    }
+    &__inner{
+    padding-right: 10px;
+}
 }
 }
 @media (max-width: 860px){
@@ -176,5 +176,6 @@
      padding-right: 0;
     }
     }
+    
     
 }
