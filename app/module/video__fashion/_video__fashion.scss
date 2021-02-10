@@ -40,3 +40,39 @@
         @extend %btn;
     }
 }
+
+@media (max-width:1050px){
+    .video__fashion{
+        &-inner{
+            display:block;
+        }
+        &-popup{
+            max-width: 100%;
+            background-position:center top;
+        }
+        &-content{
+            min-width: 100%;
+        }
+    }
+}
+
+@media (max-width:620px){
+    .video__fashion{
+        padding: 60px 0;
+        &-popup{
+            height: 270px;
+        }
+        &-subtitle{
+            padding-top: 40px;
+        }
+    }
+}
+
+
+@media (max-width:320px){
+    .video__fashion{
+        &-subtitle{
+            font-size:18px;
+        }
+    }
+}
